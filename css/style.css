@@ -182,24 +182,24 @@ form#evalForm button.active, .accordion:hover {
 
 }
 
-/*.forecastGroup{
-  padding: 7px;
-  display:flex;
-  flex-direction: row;
-}
+/* Style the accordion panel. Note: hidden by default */
+.panel {  
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 
 
-.forecast{
-    display: none;
-    /*visibility: hidden;
-}*/
+/*Radio buttons meteo forecast*/
 
-.sunOne{background-image:url(/images/icons/1-sun.png);}
-.sunTwo{background-image:url(/images/icons/2-sun.png);}
-.sunThree{background-image:url(/images/icons/3-sun.png);}
-.rainFour{background-image:url(/images/icons/4-rain.png);}
-.rainFive{background-image:url(/images/icons/5-rain.png);}
+.One{background-image:url(/images/icons/1-sun.png);}
+.Two{background-image:url(/images/icons/2-sun.png);}
+.Three{background-image:url(/images/icons/3-sun.png);}
+.Four{background-image:url(/images/icons/4-rain.png);}
+.Five{background-image:url(/images/icons/5-rain.png);}
 
 .cc-selector{
+  padding: 7px;
   display:flex;
   flex-direction: row;
 }
@@ -213,8 +213,6 @@ form#evalForm button.active, .accordion:hover {
        -moz-appearance:none;
             appearance:none;
 }
-
-
 
 .cc-selector input:active +.drinkcard-cc{opacity: .9;}
 .cc-selector input:checked +.drinkcard-cc{
@@ -240,15 +238,6 @@ form#evalForm button.active, .accordion:hover {
        -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
             filter: brightness(1.2) grayscale(.5) opacity(.9);
 }
-
-/* Style the accordion panel. Note: hidden by default */
-.panel {  
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
-} 
-
 
 /*
  * Form Style 

@@ -243,19 +243,21 @@
 									</div>
 								</div>
 
-								<button class="accordion">Mon humeurTest</button>
+								<button class="accordion">Mon humeur</button>
 								<div class="panel">
+									<!-- Radio buttons meteo forecast -->
 									<div class="cc-selector">Mon humeur du jour :
-								        <input id="sunOne" type="radio" name="credit-card" class="forecast" value="sunOne" />
-								        <label class="drinkcard-cc sunOne" for="sunOne"></label>
-								        <input id="sunTwo" type="radio" name="credit-card" class="forecast" value="sunTwo" />
-								        <label class="drinkcard-cc sunTwo"for="sunTwo"></label>
-								        <input id="sunThree" type="radio" name="credit-card" class="forecast" value="sunThree" />
-								        <label class="drinkcard-cc sunThree"for="sunThree"></label>
-								        <input id="rainFour" type="radio" name="credit-card" class="forecast" value="rainFour" />
-								        <label class="drinkcard-cc rainFour"for="rainFour"></label>
-								        <input id="rainFive" type="radio" name="credit-card" class="forecast" value="rainFive" />
-								        <label class="drinkcard-cc rainFive"for="rainFive"></label>
+								        <input id="One" type="radio" name="forecast" class="forecast" value="One" />
+								        <label class="drinkcard-cc One" for="One"></label>
+								        <input id="Two" type="radio" name="forecast" class="forecast" value="Two" />
+								        <label class="drinkcard-cc Two"for="Two"></label>
+								        <input id="Three" type="radio" name="forecast" class="forecast" value="Three" />
+								        <label class="drinkcard-cc Three"for="Three"></label>
+								        <input id="Four" type="radio" name="forecast" class="forecast" value="Four" />
+								        <label class="drinkcard-cc Four"for="Four"></label>
+								        <input id="Five" type="radio" name="forecast" class="forecast" value="Five" />
+								        <label class="drinkcard-cc Five"for="Five"></label>
+								        <!-- / Radio buttons meteo forecast -->
 								    </div>
 									<div>Message d'humeur:
 										<textarea name="msgMood"></textarea>	
