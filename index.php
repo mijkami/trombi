@@ -245,14 +245,18 @@
 
 								<button class="accordion">Mon humeurTest</button>
 								<div class="panel">
-									<div class="forecast-selector">Humeur du jour:
-										<input id="weatherOne" type="radio" name="forecast" class="forecast" value="sunOne" /><label class="forecast-cc sunOne" for="sunOne"></label>
-        								<input id="weatherTwo" type="radio" name="forecast" class="forecast" value="sunTwo" /><label class="forecast-cc sunTwo"for="sunTwo"></label>
-										<input id="weatherThree" type="radio" name="forecast" class="forecast" value="sunThree" /><label class="forecast-cc sunThree" for="sunThree"></label>
-										<input id="weatherFour" type="radio" name="forecast" class="forecast" value="rainFour" /><label class="forecast-cc rainFour" for="rainFour"></label>
-										<input id="weatherFive" type="radio" name="forecast" class="forecast" value="rainFive" /><label class="forecast-cc rainFive" for="rainFive"></label>
-											
-									</div>
+									<div class="cc-selector">Mon humeur du jour :
+								        <input id="sunOne" type="radio" name="credit-card" class="forecast" value="sunOne" />
+								        <label class="drinkcard-cc sunOne" for="sunOne"></label>
+								        <input id="sunTwo" type="radio" name="credit-card" class="forecast" value="sunTwo" />
+								        <label class="drinkcard-cc sunTwo"for="sunTwo"></label>
+								        <input id="sunThree" type="radio" name="credit-card" class="forecast" value="sunThree" />
+								        <label class="drinkcard-cc sunThree"for="sunThree"></label>
+								        <input id="rainFour" type="radio" name="credit-card" class="forecast" value="rainFour" />
+								        <label class="drinkcard-cc rainFour"for="rainFour"></label>
+								        <input id="rainFive" type="radio" name="credit-card" class="forecast" value="rainFive" />
+								        <label class="drinkcard-cc rainFive"for="rainFive"></label>
+								    </div>
 									<div>Message d'humeur:
 										<textarea name="msgMood"></textarea>	
 									</div>

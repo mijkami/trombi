@@ -190,15 +190,8 @@ form#evalForm button.active, .accordion:hover {
 
 .forecast{
     display: none;
-    /*visibility: hidden;*/
-}
-*/
-.cc-selector input{
-    margin:0;padding:0;
-    -webkit-appearance:none;
-       -moz-appearance:none;
-            appearance:none;
-}
+    /*visibility: hidden;
+}*/
 
 .sunOne{background-image:url(/images/icons/1-sun.png);}
 .sunTwo{background-image:url(/images/icons/2-sun.png);}
@@ -206,30 +199,35 @@ form#evalForm button.active, .accordion:hover {
 .rainFour{background-image:url(/images/icons/4-rain.png);}
 .rainFive{background-image:url(/images/icons/5-rain.png);}
 
-.forecast-selector input:active +.forecast-cc{opacity: .9;}
-.forecast-selector input:checked +.forecast-cc{
+.cc-selector{
+  display:flex;
+  flex-direction: row;
+}
+.forecast{
+    display: none;
+}
+
+.cc-selector input{
+    margin:0;padding:0;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+
+
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
     -webkit-filter: none;
        -moz-filter: none;
             filter: none;
 }
-
-.forecast {
-    display: none;
-    /*visibility: hidden;*/
-}
-
-.forecastGroup{
-  padding: 7px;
-  display:flex;
-  flex-direction: row;
-}
-
-.forecast-cc{
+.drinkcard-cc{
     cursor:pointer;
     background-size:contain;
     background-repeat:no-repeat;
     display:inline-block;
-    width:100px;height:70px;
+    width:30%;
     -webkit-transition: all 100ms ease-in;
        -moz-transition: all 100ms ease-in;
             transition: all 100ms ease-in;
@@ -237,7 +235,7 @@ form#evalForm button.active, .accordion:hover {
        -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
             filter: brightness(1.8) grayscale(1) opacity(.7);
 }
-.forecast-cc:hover{
+.drinkcard-cc:hover{
     -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
        -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
             filter: brightness(1.2) grayscale(.5) opacity(.9);
