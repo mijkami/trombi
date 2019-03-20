@@ -229,14 +229,14 @@ form#evalForm button.active, .accordion:hover {
     -webkit-transition: all 100ms ease-in;
        -moz-transition: all 100ms ease-in;
             transition: all 100ms ease-in;
-    -webkit-filter: brightness(1.8) grayscale(1) opacity(.85);
-       -moz-filter: brightness(1.8) grayscale(1) opacity(.85);
-            filter: brightness(1.8) grayscale(1) opacity(.85);
+    -webkit-filter: brightness(1.2) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.2) grayscale(1) opacity(.7);
+            filter: brightness(1.2) grayscale(1) opacity(.7);
 }
 .drinkcard-cc:hover{
-    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
-       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
-            filter: brightness(1.2) grayscale(.5) opacity(.9);
+    -webkit-filter: brightness(1.0) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.0) grayscale(.5) opacity(.9);
+            filter: brightness(1.0) grayscale(.5) opacity(.9);
 }
 
 /*
